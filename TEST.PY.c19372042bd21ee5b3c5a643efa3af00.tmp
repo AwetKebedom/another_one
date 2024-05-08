@@ -1,0 +1,8 @@
+
+i = "coding is good. have fun and start coding"
+for letter in range(len(i)):
+    if i[letter] != " ":
+        print(i[letter],end='')
+ 
+    else:
+        print(i[letter])
